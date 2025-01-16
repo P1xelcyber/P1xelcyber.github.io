@@ -5,7 +5,7 @@ function isMobileDevice() {
 
 // Redirect based on device type
 if (isMobileDevice()) {
-    window.location.href = '.html';
+    window.location.href = '/m/home.html';
 } else {
-    window.location.href = 'desktop.html';
+    window.location.href = 'home.html';
 }
